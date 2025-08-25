@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phing</title>
+</head>
+    <body>
+        <h1 style="margin-top: 40px;">Phing</h1>
+        <div id="warning" style="color: red; font-weight: bold; margin-top: 10px;">
+            Warning: This game is best played on a computer. Mobile support is not available.
+        </div>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="transflag.png" type="image/png">
+    <div id="game-container">
+        <canvas id="phing" width="800" height="400"></canvas>
+    </div>
+    <div id="highScoreDisplay"></div>
+    <script src="game.js"></script>
+    <script>
+        updateHighScoreDisplay(typeof highScore !== 'undefined' ? highScore : 0);
+    </script>
+
+<!--EU ODEIO DIV-->
+<div id="link-container">
+    <a href="https://x.com/AnaMaguima" target="_blank">Twitter (X)</a>
+</div>
+
+<div id="link-container1">
+    <a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">Brasil</a>
+</div>
+
+<div id="license-info">
+    <a href="https://github.com/AnaMaguima/Phing.git" style="color: rgb(0, 195, 255);">Phing</a> by 
+    <a href="https://github.com/AnaMaguima" style="color: rgb(255, 123, 215);">Ana</a> is marked 
+    <a href="https://creativecommons.org/publicdomain/zero/1.0/" style="color: rgb(255, 255, 255);">CC0 1.0 Universal</a>
+    <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+</div>
+
+</body>
+</html>

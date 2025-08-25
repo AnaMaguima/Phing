@@ -1,0 +1,83 @@
+body {
+    background: #000000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 2em;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: -40px;
+}
+
+canvas {
+    background: #111;
+    border: 4px solid #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 40px #000a;
+}
+
+#highScoreDisplay {
+    font-size: 30px;
+    color: rgb(121, 121, 121);
+    margin-top: -50px;
+}
+
+#link-container {
+    margin: 15px 0;
+    margin-right: 100px;
+}
+
+#link-container a {
+    color: #757575;
+    text-decoration: none;
+}
+
+#link-container a:hover {
+    text-decoration: underline;
+}
+
+/*Usando regua pra alinhar a porra da div*/
+
+#link-container1 {
+    margin: -32px 0;
+    margin-left: 100px;
+}
+
+#link-container1 a {
+    color: #757575;
+    text-decoration: none;
+}
+
+#link-container1 a:hover {
+    text-decoration: underline;
+}
+
+#license-info {
+    font-size: 12px;
+    color: #757575;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+*/ Apenas escute https://open.spotify.com/playlist/49VOnExYbtRG6n3ET9dbzg?si=8319246950ab490f */
